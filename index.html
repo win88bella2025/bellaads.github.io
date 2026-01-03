@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <title>我的第一个网站</title>
+  <meta charset="UTF-8">
+  <title>Bella 的第一个网站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 16px;
+      max-width: 400px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      margin-top: 30px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>🎉 网站上线了！</h1>
-  <p>这是不用 domain 的网站</p>
+  <div class="container">
+    <h1>🎉 网站上线啦！</h1>
+    <p>这是 Bella 的第一个 GitHub Pages 网站</p>
+
+    <div class="card">
+      <p>✨ 不用买域名</p>
+      <p>🚀 免费上线</p>
+      <p>📦 全部托管在 GitHub</p>
+    </div>
+
+    <footer>
+      © 2026 Bella · Powered by GitHub Pages
+    </footer>
+  </div>
 </body>
 </html>
-<!-- force deploy -->
